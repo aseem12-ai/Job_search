@@ -8,13 +8,13 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-// --- API route ---
+
 app.get("/api/companies", (req, res) => {
   const data = JSON.parse(fs.readFileSync(path.join(__dirname, "db.json")));
   res.json(data.companies);
 });
 
-// --- Serve React frontend in production ---
+
 app.use(express.static(path.join(__dirname, "dist")));
 
 app.use((req, res, next) => {
