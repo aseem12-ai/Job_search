@@ -1,0 +1,804 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "industry": "Technology",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/google.com",
+      "description": "A global leader in search, cloud, and AI technologies."
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "industry": "Technology",
+      "location": "Washington, USA",
+      "image": "https://logo.clearbit.com/microsoft.com",
+      "description": "A multinational technology company that produces software and hardware."
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "industry": "E-commerce",
+      "location": "Seattle, USA",
+      "image": "https://logo.clearbit.com/amazon.com",
+      "description": "One of the world's largest online retailers and cloud computing providers."
+    },
+    {
+      "id": 4,
+      "name": "Apple",
+      "industry": "Technology",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/apple.com",
+      "description": "Designs and manufactures consumer electronics, software, and online services."
+    },
+    {
+      "id": 5,
+      "name": "Facebook",
+      "industry": "Social Media",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/facebook.com",
+      "description": "A leading social networking platform connecting billions of users."
+    },
+    {
+      "id": 6,
+      "name": "Tesla",
+      "industry": "Automotive",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/tesla.com",
+      "description": "Electric vehicle and clean energy company."
+    },
+    {
+      "id": 7,
+      "name": "Netflix",
+      "industry": "Entertainment",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/netflix.com",
+      "description": "A streaming entertainment service offering TV series, films, and documentaries."
+    },
+    {
+      "id": 8,
+      "name": "Adobe",
+      "industry": "Software",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/adobe.com",
+      "description": "Develops creative and multimedia software products."
+    },
+    {
+      "id": 9,
+      "name": "Intel",
+      "industry": "Semiconductors",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/intel.com",
+      "description": "A major producer of semiconductor chips and computer processors."
+    },
+    {
+      "id": 10,
+      "name": "IBM",
+      "industry": "Technology",
+      "location": "New York, USA",
+      "image": "https://logo.clearbit.com/ibm.com",
+      "description": "A global technology company providing hardware, software, and cloud services."
+    },
+    {
+      "id": 11,
+      "name": "Samsung",
+      "industry": "Electronics",
+      "location": "Seoul, South Korea",
+      "image": "https://logo.clearbit.com/samsung.com",
+      "description": "A multinational conglomerate producing electronics and appliances."
+    },
+    {
+      "id": 12,
+      "name": "NVIDIA",
+      "industry": "Technology",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/nvidia.com",
+      "description": "A leading GPU and AI technology company."
+    },
+    {
+      "id": 13,
+      "name": "Oracle",
+      "industry": "Software",
+      "location": "Texas, USA",
+      "image": "https://logo.clearbit.com/oracle.com",
+      "description": "Provides database software, cloud solutions, and enterprise software products."
+    },
+    {
+      "id": 14,
+      "name": "Salesforce",
+      "industry": "Software",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/salesforce.com",
+      "description": "Cloud-based software company specializing in CRM solutions."
+    },
+    {
+      "id": 15,
+      "name": "Spotify",
+      "industry": "Entertainment",
+      "location": "Stockholm, Sweden",
+      "image": "https://logo.clearbit.com/spotify.com",
+      "description": "Digital music service offering millions of tracks."
+    },
+    {
+      "id": 16,
+      "name": "Uber",
+      "industry": "Transportation",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/uber.com",
+      "description": "Provides ride-hailing, food delivery, and mobility services."
+    },
+    {
+      "id": 17,
+      "name": "Airbnb",
+      "industry": "Hospitality",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/airbnb.com",
+      "description": "An online marketplace for lodging, primarily homestays for vacation rentals."
+    },
+    {
+      "id": 18,
+      "name": "Cisco",
+      "industry": "Networking",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/cisco.com",
+      "description": "Develops networking hardware and software solutions."
+    },
+    {
+      "id": 19,
+      "name": "PayPal",
+      "industry": "Finance",
+      "location": "California, USA",
+      "image": "https://logo.clearbit.com/paypal.com",
+      "description": "Provides digital payment and money transfer services."
+    },
+    {
+      "id": 20,
+      "name": "Stripe",
+      "industry": "Finance",
+      "location": "San Francisco, USA",
+      "image": "https://logo.clearbit.com/stripe.com",
+      "description": "An online payment processing platform for internet businesses."
+    },
+    {
+      "id": 21,
+      "name": "SpaceX",
+      "industry": "Aerospace",
+      "location": "California, USA",
+      "description": "Designs, manufactures and launches advanced rockets and spacecraft.",
+      "image": "https://logo.clearbit.com/spacex.com"
+    },
+    {
+      "id": 22,
+      "name": "Intel Corporation",
+      "industry": "Semiconductors",
+      "location": "California, USA",
+      "description": "Global leader in silicon innovation and computing technologies.",
+      "image": "https://logo.clearbit.com/intel.com"
+    },
+    {
+      "id": 23,
+      "name": "Salesforce",
+      "industry": "Cloud Computing",
+      "location": "California, USA",
+      "description": "Provides CRM software and enterprise cloud solutions.",
+      "image": "https://logo.clearbit.com/salesforce.com"
+    },
+    {
+      "id": 24,
+      "name": "Accenture",
+      "industry": "Consulting",
+      "location": "Dublin, Ireland",
+      "description": "Global professional services company specializing in IT and consulting.",
+      "image": "https://logo.clearbit.com/accenture.com"
+    },
+    {
+      "id": 25,
+      "name": "Oracle Corporation",
+      "industry": "Software",
+      "location": "Texas, USA",
+      "description": "Develops database software and cloud-engineered systems.",
+      "image": "https://logo.clearbit.com/oracle.com"
+    },
+    {
+      "id": 26,
+      "name": "Capgemini",
+      "industry": "IT Services",
+      "location": "Paris, France",
+      "description": "Consulting, digital transformation, and technology services provider.",
+      "image": "https://logo.clearbit.com/capgemini.com"
+    },
+    {
+      "id": 27,
+      "name": "HCL Technologies",
+      "industry": "Information Technology",
+      "location": "Noida, India",
+      "description": "Global technology company delivering digital and engineering services.",
+      "image": "https://logo.clearbit.com/hcltech.com"
+    },
+    {
+      "id": 28,
+      "name": "Larsen & Toubro Infotech",
+      "industry": "Software",
+      "location": "Mumbai, India",
+      "description": "Delivers IT solutions and digital transformation services.",
+      "image": "https://logo.clearbit.com/ltimindtree.com"
+    },
+    {
+      "id": 29,
+      "name": "Infosys",
+      "industry": "Software",
+      "location": "Bengaluru, India",
+      "description": "Offers business consulting, information technology, and outsourcing services.",
+      "image": "https://logo.clearbit.com/infosys.com"
+    },
+    {
+      "id": 30,
+      "name": "Wipro",
+      "industry": "IT Services",
+      "location": "Bengaluru, India",
+      "description": "Provides IT, consulting, and business process services globally.",
+      "image": "https://logo.clearbit.com/wipro.com"
+    },
+    {
+      "id": 31,
+      "name": "Tech Mahindra",
+      "industry": "IT Services",
+      "location": "Pune, India",
+      "description": "Delivers digital transformation and consulting services.",
+      "image": "https://logo.clearbit.com/techmahindra.com"
+    },
+    {
+      "id": 32,
+      "name": "Mindtree",
+      "industry": "Software",
+      "location": "Bengaluru, India",
+      "description": "Specializes in e-commerce, mobile applications, and cloud computing.",
+      "image": "https://logo.clearbit.com/mindtree.com"
+    },
+    {
+      "id": 33,
+      "name": "Zoho Corporation",
+      "industry": "Software",
+      "location": "Chennai, India",
+      "description": "Offers cloud-based business software and productivity tools.",
+      "image": "https://logo.clearbit.com/zoho.com"
+    },
+    {
+      "id": 34,
+      "name": "BYJU’S",
+      "industry": "EdTech",
+      "location": "Bengaluru, India",
+      "description": "Online learning platform offering personalized educational content.",
+      "image": "https://logo.clearbit.com/byjus.com"
+    },
+    {
+      "id": 35,
+      "name": "Unacademy",
+      "industry": "EdTech",
+      "location": "Bengaluru, India",
+      "description": "Online learning app offering courses for competitive exams.",
+      "image": "https://logo.clearbit.com/unacademy.com"
+    },
+    {
+      "id": 36,
+      "name": "UpGrad",
+      "industry": "EdTech",
+      "location": "Mumbai, India",
+      "description": "Provides online higher education and professional courses.",
+      "image": "https://logo.clearbit.com/upgrad.com"
+    },
+    {
+      "id": 37,
+      "name": "Paytm",
+      "industry": "Fintech",
+      "location": "Noida, India",
+      "description": "Digital payment and financial services company.",
+      "image": "https://logo.clearbit.com/paytm.com"
+    },
+    {
+      "id": 38,
+      "name": "PhonePe",
+      "industry": "Fintech",
+      "location": "Bengaluru, India",
+      "description": "Digital payments platform providing UPI and wallet services.",
+      "image": "https://logo.clearbit.com/phonepe.com"
+    },
+    {
+      "id": 39,
+      "name": "Razorpay",
+      "industry": "Fintech",
+      "location": "Bengaluru, India",
+      "description": "Payment gateway and financial services provider.",
+      "image": "https://logo.clearbit.com/razorpay.com"
+    },
+    {
+      "id": 40,
+      "name": "Zerodha",
+      "industry": "Finance",
+      "location": "Bengaluru, India",
+      "description": "Discount brokerage firm providing stock trading services.",
+      "image": "https://logo.clearbit.com/zerodha.com"
+    },
+    {
+      "id": 41,
+      "name": "Groww",
+      "industry": "Fintech",
+      "location": "Bengaluru, India",
+      "description": "Online investment platform for mutual funds and stocks.",
+      "image": "https://logo.clearbit.com/groww.in"
+    },
+    {
+      "id": 42,
+      "name": "Swiggy",
+      "industry": "Food Delivery",
+      "location": "Bengaluru, India",
+      "description": "Online food ordering and delivery platform.",
+      "image": "https://logo.clearbit.com/swiggy.com"
+    },
+    {
+      "id": 43,
+      "name": "Zomato",
+      "industry": "Food Delivery",
+      "location": "Gurgaon, India",
+      "description": "Provides restaurant discovery and food delivery services.",
+      "image": "https://logo.clearbit.com/zomato.com"
+    },
+    {
+      "id": 44,
+      "name": "Blinkit",
+      "industry": "Quick Commerce",
+      "location": "Gurgaon, India",
+      "description": "Instant delivery service for groceries and essentials.",
+      "image": "https://logo.clearbit.com/blinkit.com"
+    },
+    {
+      "id": 45,
+      "name": "Ola Cabs",
+      "industry": "Transportation",
+      "location": "Bengaluru, India",
+      "description": "Ridesharing platform offering cabs, autos, and rentals.",
+      "image": "https://logo.clearbit.com/olacabs.com"
+    },
+    {
+      "id": 46,
+      "name": "Uber",
+      "industry": "Transportation",
+      "location": "California, USA",
+      "description": "Global ridesharing and food delivery platform.",
+      "image": "https://logo.clearbit.com/uber.com"
+    },
+    {
+      "id": 47,
+      "name": "Airbnb",
+      "industry": "Hospitality",
+      "location": "California, USA",
+      "description": "Online marketplace for lodging and travel experiences.",
+      "image": "https://logo.clearbit.com/airbnb.com"
+    },
+    {
+      "id": 48,
+      "name": "LinkedIn",
+      "industry": "Professional Networking",
+      "location": "California, USA",
+      "description": "Social platform for professionals to connect and find jobs.",
+      "image": "https://logo.clearbit.com/linkedin.com"
+    },
+    {
+      "id": 49,
+      "name": "Spotify",
+      "industry": "Music Streaming",
+      "location": "Stockholm, Sweden",
+      "description": "Digital music service giving access to millions of songs.",
+      "image": "https://logo.clearbit.com/spotify.com"
+    },
+    {
+      "id": 50,
+      "name": "Adobe",
+      "industry": "Software",
+      "location": "California, USA",
+      "description": "Creates multimedia and creativity software products.",
+      "image": "https://logo.clearbit.com/adobe.com"
+    },
+    {
+      "id": 51,
+      "name": "Netflix",
+      "industry": "Entertainment",
+      "location": "California, USA",
+      "description": "Online streaming platform for movies and TV shows.",
+      "image": "https://logo.clearbit.com/netflix.com"
+    },
+    {
+      "id": 52,
+      "name": "Disney",
+      "industry": "Entertainment",
+      "location": "California, USA",
+      "description": "Global entertainment company known for films and theme parks.",
+      "image": "https://logo.clearbit.com/disney.com"
+    },
+    {
+      "id": 53,
+      "name": "Sony",
+      "industry": "Electronics",
+      "location": "Tokyo, Japan",
+      "description": "Manufacturer of electronics, gaming consoles, and entertainment content.",
+      "image": "https://logo.clearbit.com/sony.com"
+    },
+    {
+      "id": 54,
+      "name": "Samsung Electronics",
+      "industry": "Electronics",
+      "location": "Seoul, South Korea",
+      "description": "Global leader in consumer electronics and semiconductors.",
+      "image": "https://logo.clearbit.com/samsung.com"
+    },
+    {
+      "id": 55,
+      "name": "LG Electronics",
+      "industry": "Electronics",
+      "location": "Seoul, South Korea",
+      "description": "Produces home appliances and electronic devices.",
+      "image": "https://logo.clearbit.com/lg.com"
+    },
+    {
+      "id": 56,
+      "name": "Xiaomi",
+      "industry": "Consumer Electronics",
+      "location": "Beijing, China",
+      "description": "Designs smartphones, IoT products, and smart home devices.",
+      "image": "https://logo.clearbit.com/mi.com"
+    },
+    {
+      "id": 57,
+      "name": "OnePlus",
+      "industry": "Consumer Electronics",
+      "location": "Shenzhen, China",
+      "description": "Smartphone manufacturer known for performance-focused devices.",
+      "image": "https://logo.clearbit.com/oneplus.com"
+    },
+    {
+      "id": 58,
+      "name": "HP Inc.",
+      "industry": "Technology",
+      "location": "California, USA",
+      "description": "Produces personal computers and printers worldwide.",
+      "image": "https://logo.clearbit.com/hp.com"
+    },
+    {
+      "id": 59,
+      "name": "Dell Technologies",
+      "industry": "Technology",
+      "location": "Texas, USA",
+      "description": "Provides computer technology, cloud services, and infrastructure.",
+      "image": "https://logo.clearbit.com/dell.com"
+    },
+    {
+      "id": 60,
+      "name": "Asus",
+      "industry": "Technology",
+      "location": "Taipei, Taiwan",
+      "description": "Manufacturer of laptops, motherboards, and computer hardware.",
+      "image": "https://logo.clearbit.com/asus.com"
+    },
+    {
+      "id": 61,
+      "name": "Lenovo",
+      "industry": "Technology",
+      "location": "Beijing, China",
+      "description": "Multinational technology company producing computers and electronics.",
+      "image": "https://logo.clearbit.com/lenovo.com"
+    },
+    {
+      "id": 62,
+      "name": "IBM",
+      "industry": "IT Services",
+      "location": "New York, USA",
+      "description": "Pioneer in computer hardware, software, and cloud computing.",
+      "image": "https://logo.clearbit.com/ibm.com"
+    },
+    {
+      "id": 63,
+      "name": "Goldman Sachs",
+      "industry": "Finance",
+      "location": "New York, USA",
+      "description": "Leading global investment banking and financial management firm.",
+      "image": "https://logo.clearbit.com/goldmansachs.com"
+    },
+    {
+      "id": 64,
+      "name": "JP Morgan Chase",
+      "industry": "Finance",
+      "location": "New York, USA",
+      "description": "Global leader in investment banking and financial services.",
+      "image": "https://logo.clearbit.com/jpmorganchase.com"
+    },
+    {
+      "id": 65,
+      "name": "Morgan Stanley",
+      "industry": "Finance",
+      "location": "New York, USA",
+      "description": "Investment bank offering wealth management and advisory services.",
+      "image": "https://logo.clearbit.com/morganstanley.com"
+    },
+    {
+      "id": 66,
+      "name": "Deutsche Bank",
+      "industry": "Finance",
+      "location": "Frankfurt, Germany",
+      "description": "Provides banking, investment, and asset management services.",
+      "image": "https://logo.clearbit.com/db.com"
+    },
+    {
+      "id": 67,
+      "name": "HSBC",
+      "industry": "Banking",
+      "location": "London, UK",
+      "description": "International bank offering financial and investment services.",
+      "image": "https://logo.clearbit.com/hsbc.com"
+    },
+    {
+      "id": 68,
+      "name": "Barclays",
+      "industry": "Banking",
+      "location": "London, UK",
+      "description": "Provides financial services, retail banking, and credit cards.",
+      "image": "https://logo.clearbit.com/barclays.com"
+    },
+    {
+      "id": 69,
+      "name": "Citi",
+      "industry": "Finance",
+      "location": "New York, USA",
+      "description": "Offers consumer and corporate banking services globally.",
+      "image": "https://logo.clearbit.com/citigroup.com"
+    },
+    {
+      "id": 70,
+      "name": "ICICI Bank",
+      "industry": "Banking",
+      "location": "Mumbai, India",
+      "description": "Private sector bank providing financial services in India.",
+      "image": "https://logo.clearbit.com/icicibank.com"
+    },
+    {
+      "id": 71,
+      "name": "HDFC Bank",
+      "industry": "Banking",
+      "location": "Mumbai, India",
+      "description": "Leading private bank offering retail and corporate banking services.",
+      "image": "https://logo.clearbit.com/hdfcbank.com"
+    },
+    {
+      "id": 72,
+      "name": "Axis Bank",
+      "industry": "Banking",
+      "location": "Mumbai, India",
+      "description": "Provides personal, corporate, and digital banking services.",
+      "image": "https://logo.clearbit.com/axisbank.com"
+    },
+    {
+      "id": 73,
+      "name": "Kotak Mahindra Bank",
+      "industry": "Banking",
+      "location": "Mumbai, India",
+      "description": "Private bank offering a range of financial services.",
+      "image": "https://logo.clearbit.com/kotak.com"
+    },
+    {
+      "id": 74,
+      "name": "Tata Consultancy Services",
+      "industry": "IT Services",
+      "location": "Mumbai, India",
+      "description": "Global leader in IT services, consulting, and business solutions.",
+      "image": "https://logo.clearbit.com/tcs.com"
+    },
+    {
+      "id": 75,
+      "name": "Reliance Industries",
+      "industry": "Conglomerate",
+      "location": "Mumbai, India",
+      "description": "Diversified company in telecom, retail, and energy sectors.",
+      "image": "https://logo.clearbit.com/relianceindustries.com"
+    },
+    {
+      "id": 76,
+      "name": "Adani Group",
+      "industry": "Conglomerate",
+      "location": "Ahmedabad, India",
+      "description": "Involved in logistics, energy, infrastructure, and ports.",
+      "image": "https://logo.clearbit.com/adani.com"
+    },
+    {
+      "id": 77,
+      "name": "Mahindra & Mahindra",
+      "industry": "Automobile",
+      "location": "Mumbai, India",
+      "description": "Manufactures SUVs, commercial vehicles, and tractors.",
+      "image": "https://logo.clearbit.com/mahindra.com"
+    },
+    {
+      "id": 78,
+      "name": "Maruti Suzuki",
+      "industry": "Automobile",
+      "location": "Gurgaon, India",
+      "description": "India’s largest car manufacturer.",
+      "image": "https://logo.clearbit.com/marutisuzuki.com"
+    },
+    {
+      "id": 79,
+      "name": "Hyundai Motors",
+      "industry": "Automobile",
+      "location": "Seoul, South Korea",
+      "description": "Global car manufacturer producing affordable and luxury vehicles.",
+      "image": "https://logo.clearbit.com/hyundai.com"
+    },
+    {
+      "id": 80,
+      "name": "Tesla",
+      "industry": "Automobile",
+      "location": "Texas, USA",
+      "description": "Designs and manufactures electric vehicles and clean energy solutions.",
+      "image": "https://logo.clearbit.com/tesla.com"
+    },
+    {
+      "id": 81,
+      "name": "Ford Motor Company",
+      "industry": "Automobile",
+      "location": "Michigan, USA",
+      "description": "American multinational automaker producing cars and trucks.",
+      "image": "https://logo.clearbit.com/ford.com"
+    },
+    {
+      "id": 82,
+      "name": "General Motors",
+      "industry": "Automobile",
+      "location": "Michigan, USA",
+      "description": "Manufactures vehicles under Chevrolet, GMC, Cadillac, and Buick.",
+      "image": "https://logo.clearbit.com/gm.com"
+    },
+    {
+      "id": 83,
+      "name": "Nissan",
+      "industry": "Automobile",
+      "location": "Yokohama, Japan",
+      "description": "Japanese automobile manufacturer producing electric and fuel cars.",
+      "image": "https://logo.clearbit.com/nissan-global.com"
+    },
+    {
+      "id": 84,
+      "name": "Toyota",
+      "industry": "Automobile",
+      "location": "Aichi, Japan",
+      "description": "Largest car manufacturer known for reliability and innovation.",
+      "image": "https://logo.clearbit.com/toyota.com"
+    },
+    {
+      "id": 85,
+      "name": "Volkswagen",
+      "industry": "Automobile",
+      "location": "Wolfsburg, Germany",
+      "description": "German automaker producing Volkswagen, Audi, and Porsche brands.",
+      "image": "https://logo.clearbit.com/volkswagen.com"
+    },
+    {
+      "id": 86,
+      "name": "BMW Group",
+      "industry": "Automobile",
+      "location": "Munich, Germany",
+      "description": "Luxury car manufacturer producing BMW, MINI, and Rolls-Royce vehicles.",
+      "image": "https://logo.clearbit.com/bmw.com"
+    },
+    {
+      "id": 87,
+      "name": "Mercedes-Benz",
+      "industry": "Automobile",
+      "location": "Stuttgart, Germany",
+      "description": "Manufacturer of premium vehicles and luxury cars.",
+      "image": "https://logo.clearbit.com/mercedes-benz.com"
+    },
+    {
+      "id": 88,
+      "name": "Porsche",
+      "industry": "Automobile",
+      "location": "Stuttgart, Germany",
+      "description": "Sports car manufacturer known for high-performance vehicles.",
+      "image": "https://logo.clearbit.com/porsche.com"
+    },
+    {
+      "id": 89,
+      "name": "Ferrari",
+      "industry": "Automobile",
+      "location": "Maranello, Italy",
+      "description": "Luxury sports car manufacturer known for speed and design.",
+      "image": "https://logo.clearbit.com/ferrari.com"
+    },
+    {
+      "id": 90,
+      "name": "Lamborghini",
+      "industry": "Automobile",
+      "location": "Sant'Agata Bolognese, Italy",
+      "description": "Italian luxury sports car brand under Volkswagen Group.",
+      "image": "https://logo.clearbit.com/lamborghini.com"
+    },
+    {
+      "id": 91,
+      "name": "Rolls-Royce",
+      "industry": "Automobile",
+      "location": "Goodwood, UK",
+      "description": "Luxury automobile manufacturer producing hand-crafted cars.",
+      "image": "https://logo.clearbit.com/rolls-roycemotorcars.com"
+    },
+    {
+      "id": 92,
+      "name": "Shell",
+      "industry": "Energy",
+      "location": "London, UK",
+      "description": "Global group of energy and petrochemical companies.",
+      "image": "https://logo.clearbit.com/shell.com"
+    },
+    {
+      "id": 93,
+      "name": "ExxonMobil",
+      "industry": "Energy",
+      "location": "Texas, USA",
+      "description": "One of the world's largest publicly traded oil and gas companies.",
+      "image": "https://logo.clearbit.com/exxonmobil.com"
+    },
+    {
+      "id": 94,
+      "name": "Chevron",
+      "industry": "Energy",
+      "location": "California, USA",
+      "description": "Multinational energy corporation engaged in oil and natural gas.",
+      "image": "https://logo.clearbit.com/chevron.com"
+    },
+    {
+      "id": 95,
+      "name": "BP",
+      "industry": "Energy",
+      "location": "London, UK",
+      "description": "British oil and gas company transitioning to renewable energy.",
+      "image": "https://logo.clearbit.com/bp.com"
+    },
+    {
+      "id": 96,
+      "name": "Siemens",
+      "industry": "Engineering",
+      "location": "Munich, Germany",
+      "description": "Global technology company focusing on electrification and automation.",
+      "image": "https://logo.clearbit.com/siemens.com"
+    },
+    {
+      "id": 97,
+      "name": "Philips",
+      "industry": "Healthcare Technology",
+      "location": "Amsterdam, Netherlands",
+      "description": "Leader in health technology and consumer electronics.",
+      "image": "https://logo.clearbit.com/philips.com"
+    },
+    {
+      "id": 98,
+      "name": "Panasonic",
+      "industry": "Electronics",
+      "location": "Osaka, Japan",
+      "description": "Japanese multinational developing electronics and appliances.",
+      "image": "https://logo.clearbit.com/panasonic.com"
+    },
+    {
+      "id": 99,
+      "name": "Hitachi",
+      "industry": "Electronics & Engineering",
+      "location": "Tokyo, Japan",
+      "description": "Provides IT, energy systems, and industrial machinery solutions.",
+      "image": "https://logo.clearbit.com/hitachi.com"
+    },
+    {
+      "id": 100,
+      "name": "ABB Group",
+      "industry": "Engineering",
+      "location": "Zurich, Switzerland",
+      "description": "Pioneering technology leader in electrification and automation.",
+      "image": "https://logo.clearbit.com/abb.com"
+    }
+  ]
+}
